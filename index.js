@@ -9,16 +9,14 @@ function theBeatlesPlay(musicians, instruments){
   return beatles
 }
 
-function johnLennonFacts(){
+function johnLennonFacts(facts){
   var johnArray = []
-  var newArray = []
-  var len = array.length
-  While(len > 0){
-    console.log(len)
-    johnArray.unshift(array[len-1]+"!!!")
-    len--
-  }
-  return johnArray
+  var counter = 0
+    while (counter < facts.length) {
+      johnArray.push(facts[counter] + "!!!")
+      counter++
+    }
+    return johnArray
 }
 
 function iLoveTheBeatles(number){
